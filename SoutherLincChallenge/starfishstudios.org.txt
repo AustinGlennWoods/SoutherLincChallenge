@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home - StarfishStudios</title>
+    <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/NOPEFISH.css" />
+	
+</head>
+<body>
+	<header>
+		<nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+			<div class="container">
+				<!-- Adds a brand image to the navbar -->
+				<img id="NOPEFISHBrandImage" class="NOPEFISHBrandImage navbar-brand img-fluid" src="/images/SS_Logo.png" style="object-fit: scale-down; display: inline-block" asp-area="" asp-controller="Home" asp-action="Index" />
+
+				<!-- old brand navbar
+				<a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
+				StarfishStudios
+				</a>
+				-->
+
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
+					<ul class="navbar-nav flex-grow-1">
+						<li class="nav-item">
+							<a class="nav-link text-dark" href="/">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link text-dark" href="/Hexonomy">Hexonomy</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link text-dark" href="/Home/Contact">Contact</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+
+
+    <main role="main" class="pb-3" style="margin-bottom:10rem">
+        
+
+<div>
+    <!--JUMBOTRON HEADING-->
+    <div class="jumbotron" style="text-align: center">
+        <div class="container">
+            <h1 class="display-3">Welcome to Starfish Studios!</h1>
+            <!--split-->
+            <hr class="my-4">
+            <p class="lead">Starfish Studios is a new upcoming game development studio working on Hexonomy!</p>
+        </div>
+    </div>
+
+    <!--ABOUT CONTENT-->
+    <section id="about" style="padding-top: 2em; padding-bottom: 5em;">
+        <div class="container">
+            <header style="text-align: center">
+                <h2>About Us</h2>
+                <p>
+                    Starfish Studios is located in Birmingham, AL and currently working on releasing their first game, Hexonomy.
+                    To learn more about Starfish Studios and their owner Austin Woods, check out his page!
+                </p>
+                <p>
+                    We are currently working on a new upcoming game called Hexonomy, a chess-like hex tile economics strategy game.
+                    Chain together hundreds of combinations of businesses to create a massive economic empire to beat your opponents with.
+                    Be careful, your opponents can synergize with your businesses, creating other chains that reap the benefits of your resources hard-work.
+                    Placing a business in the wrong place could lead to disaster, or keep your opponent out of the market.
+                    Strategy is key in this real-time economic development game.
+                </p>
+                <div style="overflow: auto; resize:both; position: relative;">
+                    <iframe src="https://store.steampowered.com/widget/1554610/" frameborder="0" width="646" height="190"></iframe>
+                </div>
+            </header>
+        </div>
+    </section>
+</div>
+
+
+<!-- SOCIAL MEDIA AND CONNECTING -->
+<section>
+    <div class="container">
+        <div style="text-align: center">
+            <h2>Let's Connect!</h2>
+            <p>Check our Twitter for updates, or join our Discord for real-time development updates!</p>
+        </div>
+        <div class="row" style="text-align: center">
+            <div class="col-6">
+                <a class="twitter-timeline" data-width="400" data-height="800" data-theme="dark" href="https://twitter.com/NOPEFISHstudioz">Tweets by Starfish Studios</a>
+                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </div>
+            <div class="col-6">
+                <iframe src="https://discord.com/widget?id=825167772471656489&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+            </div>
+        </div>
+        <header style="padding-bottom: 5em; text-align: center">
+        </header>
+    </div>
+</section>
+
+
+
+
+<div>
+    <!--FUTURE GOALS-->
+    <div class="jumbotron" style="text-align: center">
+        <div class="container">
+            <h1 class="display-3">Our Current Goals</h1>
+            <hr class="my-4">
+            <p class="lead">These are the things we are working on right now!</p>
+        </div>
+    </div>
+    <!--FUTURE CONTENT-->
+    <section id="future" style="padding-bottom: 5rem;">
+        <div class="container">
+            <iframe class="clickup-embed" src="https://share.clickup.com/l/h/883bk-77/2288ca527a9b76d" onwheel="" width="100%" height="1500px" style="background: transparent; border: 1px solid #ccc;"></iframe>
+            <!--FOOTER-->
+            <div style="text-align: center">
+                <div style="text-align: center; align-content: center"><a href="#">back to the top</a></div>
+            </div>
+        </div>
+    </section>
+</div>
+
+
+
+
+
+
+    </main>
+
+	
+
+
+	<footer class="border-top footer text-muted">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					&copy; 2021 - StarfishStudios - <a href="/Home/Privacy">Privacy</a>
+				</div>
+				<div class="col" style="display: flex; align-items: center;">
+					<div>
+                        <a style="align-content:center" href="https://www.patreon.com/bePatron?u=50795877" data-patreon-widget-type="become-patron-button">Become a Patron!</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--Bottom Tag-->
+		<div class="container">
+			<center style="font-size: .5rem">
+				<p>Full website coded by Austin Glenn Woods. Color, fonts, design, and graphics by Austin Glenn Woods. All work is the possesion of Austin Glenn Woods and Starfish Studios. All work included in Pre-Alpha, Alpha, and Beta releases is not allowed to be redistributed without author permission. Pre-Alpha and testing privledges may be revoked at any time at the Director's (Austin Glenn Woods) discretion.</p>
+			</center>
+		</div>
+	</footer>
+
+	<script async src="https://c6.patreon.com/becomePatronButton.bundle.js"></script>
+	<script src="/lib/jquery/dist/jquery.min.js"></script>
+	<script src="/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+	<script src="/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0"></script>
+	
+</body>
+</html>
